@@ -12,7 +12,8 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com:betht1220/account-activated-function.git"
+    "url": "git+https://github.com:betht1220/account-activated-function.git",
+    "branch": "demo"
   },
   "author": "kbastani",
   "license": "ISC",
