@@ -6,12 +6,12 @@ Resources:
     Type: 'AWS::Serverless::Function'
     Properties:
       Handler: index.handler
-      Runtime: nodejs4.3
+      Runtime: nodejs8.10
       CodeUri: .
       Description: Responds to an account activated event
       MemorySize: 128
       Timeout: 10
-      Role: 'arn:aws:iam::194021864310:role/service-role/public'
+      Role: 'arn:aws:iam::524724070363:role/roleUsedByLambdaToAccessS3'
       Events:
         Api1:
           Type: Api

@@ -4,6 +4,7 @@
   "description": "AWS Lambda Function for handling account activated event",
   "main": "index.js",
   "dependencies": {
+    "serverless": "^1.45.1",
     "traverson": "^3.2.0",
     "traverson-hal": "^4.1.1"
   },
@@ -11,7 +12,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/event-stream-processing-microservices/account-activated-function.git"
+    "url": "git+https://github.com:betht1220/account-activated-function.git"
   },
   "author": "kbastani",
   "license": "ISC",
